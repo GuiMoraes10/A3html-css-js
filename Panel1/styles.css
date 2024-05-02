@@ -53,6 +53,7 @@ a:hover{
     flex-direction: column;
     border-radius: 10px;
     width: 47%;
+    text-align: center;
 }
 
 .topo{
@@ -70,7 +71,7 @@ a:hover{
     flex-wrap: wrap;
     background-color: #4c4c4c;
     box-shadow: 0 0 15px rgb(39, 36, 36);
-    align-items: center;
+    text-align: center;
     flex-direction: column;
     border-radius: 10px;
     width: 47%;
@@ -80,10 +81,10 @@ a:hover{
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 20px;
-    justify-content: space-between;
+    justify-content: center;
 }
 
-img{
+.imgtop{
     width: 300px;
     height: 200px;
     border-radius: 10px;
@@ -92,4 +93,38 @@ img{
 
 .texttopo{
     margin: 10px;
+}
+
+.forunsdiv{
+    color: lightgray;
+    margin: 10px;
+    margin-top: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #4c4c4c;
+    box-shadow: 0 0 15px rgb(39, 36, 36);
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    width: 90%;
+}
+
+.forunsul{
+    list-style-type: none; 
+    display: flex;
+    justify-content: space-between;
+    width: 94%;
+}
+
+
+.imgforuns{
+    width: 150px;
+    height: 120px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.bottonP{
+    text-align: center;
 }
