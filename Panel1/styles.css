@@ -15,10 +15,11 @@ body{
     /*background-image: url("/Resources/vetor-de-fundo-gradiente-de-inverno-azul-e-rosa_53876-117276.avif");*/
     background-color: #E6E6FA;
     background-size: 100%;
+    font-family: Arial, sans-serif;
 }
 
 .imageLogo{    
-    margin-top: 5px;
+    margin-top: 10px;
     height: 200px;
     width: 200px;
     border-radius: 10px;
@@ -29,6 +30,9 @@ body{
     align-items: center;
     flex-direction: column;
     margin-bottom: 18px;
+    background-color: #bbd7eb;    
+    height: 220px;
+    border-radius: 10px;
 }
 
 a{
@@ -38,6 +42,7 @@ a{
 a:link{
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: transform 0.25s ease;
 }
 
 a:visited{
@@ -46,6 +51,7 @@ a:visited{
 
 a:hover{
     color: white;
+    transform: translateY(-5px);
 }
 
 .headerul{
@@ -56,6 +62,7 @@ a:hover{
     font-size: 20px;
     width: 65%;
     justify-content: space-between;
+    font-size: 140%;
 }
 
 .headerli{
@@ -144,7 +151,7 @@ a:hover{
     height: 160px;
     margin-bottom: 10%;
     border-radius: 10px;
-    margin-top: 8%;
+    margin-top: 8%;    
 }
 
 .bottonP{
