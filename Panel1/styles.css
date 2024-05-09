@@ -12,7 +12,6 @@ header{
 }
 
 body{
-    /*background-image: url("/Resources/vetor-de-fundo-gradiente-de-inverno-azul-e-rosa_53876-117276.avif");*/
     background-color: #E6E6FA;
     background-size: 100%;
     font-family: Arial, sans-serif;
@@ -30,7 +29,7 @@ body{
     align-items: center;
     flex-direction: column;
     margin-bottom: 18px;
-    background-color: #bbd7eb;    
+    background-color: #c7e5fa;    
     height: 220px;
     border-radius: 10px;
 }
@@ -81,6 +80,7 @@ a:hover{
     flex-direction: column;
     border-radius: 10px;
     width: 48%;
+    height: 450px;
     text-align: center;
 }
 
@@ -103,6 +103,7 @@ a:hover{
     flex-direction: column;
     border-radius: 10px;
     width: 48%;
+    height: 450px;
 }
 
 .divtopo{
@@ -112,18 +113,26 @@ a:hover{
     justify-content: center;
 }
 
-.imgtop{
+.imgtopDiferenciais{
     width: 300px;
     height: 200px;
     border-radius: 10px;
-    margin: 1%;
+    margin: 1%;    
+}
+
+.imgtopQuemSomos{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 1%; 
+    margin-top: 1%;   
 }
 
 .texttopo{
     margin: 1%;
 }
 
-.forunsdiv{
+.produtosdiv{
     color: rgb(0, 0, 0);
     margin: 1%;
     margin-top: 0.2%;
@@ -138,7 +147,7 @@ a:hover{
     width: 90%;
 }
 
-.forunsul{
+.produtosul{
     list-style-type: none; 
     display: flex;
     justify-content: space-between;
@@ -146,7 +155,7 @@ a:hover{
 }
 
 
-.imgforuns{
+.imgprodutos{
     width: 125px;
     height: 160px;
     margin-bottom: 10%;
@@ -158,6 +167,6 @@ a:hover{
     text-align: center;
 }
 
-.forunsli{
+.produtosli{
     margin-top: 1%;
 }
