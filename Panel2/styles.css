@@ -7,7 +7,7 @@ body{
 header{
     display: flex;
     flex-wrap: wrap;
-    background-color: #dfedf7;
+    background-color: #d8eaf7;
     box-shadow: 0 0 15px rgb(0, 0, 0);
     align-items: center;
     flex-direction: column;
@@ -24,7 +24,6 @@ a{
 a:link{
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    transition: transform 0.25s ease;
 }
 
 a:visited{
@@ -78,8 +77,9 @@ a:hover{
 
 .produtosdiv{
     color: rgb(0, 0, 0);
-    margin: 1%;
-    margin-top: 0.2%;
+    margin: 0.5%;
+    margin-bottom: 0.2%;
+    margin-top: 0.1%;
     display: flex;
     flex-wrap: wrap;
     background-color: #d8eaf7;
@@ -89,6 +89,7 @@ a:hover{
     align-items: center;
     border-radius: 10px;
     width: 90%;
+    height: 100%;
 }
 
 .produtosul{
@@ -102,7 +103,55 @@ a:hover{
 .imgprodutos{
     width: 125px;
     height: 160px;
-    margin-bottom: 10%;
+    margin-bottom: 4%;
     border-radius: 10px;
-    margin-top: 8%;    
+    margin-top: 4%;    
+}
+
+.buttonDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    height: 30px;
+    width: 70px;   
+    font-size: medium;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.25s ease;
+    transition: transform 0.2s ease-in-out;
+    border: none;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.cont{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.btnBuy{
+    height: 9%;
+    width: 9%;
+    background-color: white;
+    cursor: pointer;
+    transition: transform 0.25s ease;
+    transition: transform 0.2s ease-in-out;
+    margin-bottom: 9px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btnBuy:hover{
+    transform: scale(1.05);
+}
+
+.iconBuy{
+    height: 100%;
+    width: 100%;
 }
