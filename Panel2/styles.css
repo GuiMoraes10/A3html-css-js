@@ -75,6 +75,7 @@ a:hover{
     margin-top: 1%;
 }
 
+
 .produtosdiv{
     color: rgb(0, 0, 0);
     margin: 0.5%;
@@ -90,6 +91,20 @@ a:hover{
     border-radius: 10px;
     width: 90%;
     height: 100%;
+}
+
+.buydiv{
+    color: rgb(0, 0, 0);
+    margin: 0.5%;
+    margin-bottom: 0.2%;
+    margin-top: 0.1%;
+    display: flex;
+    background-color: #d8eaf7;
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
 }
 
 .produtosul{
@@ -111,7 +126,7 @@ a:hover{
 .buttonDiv{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;    
 }
 
 .btn{
@@ -131,13 +146,14 @@ a:hover{
 }
 
 .cont{
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-top: 20%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 .btnBuy{
-    height: 9%;
-    width: 9%;
+    height: 2.5%;
+    width: 2.5%;
     background-color: white;
     cursor: pointer;
     transition: transform 0.25s ease;
@@ -145,6 +161,7 @@ a:hover{
     margin-bottom: 9px;
     border-radius: 5px;
     border: none;
+    margin-bottom: 15px;
 }
 
 .btnBuy:hover{
@@ -154,4 +171,14 @@ a:hover{
 .iconBuy{
     height: 100%;
     width: 100%;
+}
+
+.input{
+    text-align: center;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.comprar{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
