@@ -78,7 +78,7 @@ a:hover{
     align-items: center;
     flex-direction: column;
     border-radius: 10px;
-    width: 1200px;
+    width: 80%;
     height: 550px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -102,7 +102,7 @@ a:hover{
     text-align: center;
     flex-direction: column;
     border-radius: 10px;
-    width: 1200px;
+    width: 80%;
     height: 550px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 3px;
