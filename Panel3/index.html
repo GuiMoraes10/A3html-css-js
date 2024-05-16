@@ -1,13 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Mundo e Cenários</title>
+    <link rel="stylesheet" href="/Panel3/styles.css">
+    <title>Home</title>
 </head>
+
 <body>
-    
-    <script src="mundos.js"></script>
+    <div class="logo">
+        <img class="imageLogo" src="/Resources/LavishLabels.png" alt="logo nossa loja">
+    </div>
+    <header>
+
+        <ul class="headerul">
+            <li class="headerli"><a href="/Panel2/index.html">Produtos</a></li>
+            <li class="headerli"><a href="/Panel1/index.html">Home</a></li>
+            <li class="headerli"><a href="/Panel3/index.html">Contato</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <div class="topo">
+            <section class="faleConosco">
+                <h2 class="titleFaleConosco">Fale conosco</h2>
+                <div class="divInputs">
+                    <input class="inputs" type="email" id="email" name="email" placeholder="email" required>
+                    <input class="inputs" type="text" id="assunto" name="assunto" placeholder="assunto" required>
+                    <p>Mensagem</p>
+                    <textarea class="inputsMensagem" cols="30" rows="5"></textarea>
+                    <button class="enviar" id="enviar">enviar</button>
+                </div>
+            </section>
+            <section class="contato">
+                <h2>Contato</h2>
+                <div class="divtopo">
+                    <a href="https://github.com/GuiMoraes10/A3html-css-js">github:
+                        https://github.com/GuiMoraes10/A3html-css-js</a>
+                    <p class="texttopo">
+                        <br>Universidade Anhembi Morumbi - Mooca<br>
+                        Análise e Desenvolvimento de Sistemas<br>
+                        <br>Guilherme de Moraes Oliveira<br>
+                        oguimoraes721@gmail.com<br>
+                        RA: 1252214288<br>
+                        <br>Gustavo Basilio Salzedas<br>
+                        12522163427@ulife.com<br>
+                        RA: 12522163427
+                    </p>
+
+                    <img class="imgtopContato" src="/Resources/LavishLabels.png" alt="imagem">
+                </div>
+            </section>
+        </div>
+    </main>
+    <script src="/Panel3/sobre.js"></script>
+
+    <footer>
+        <p class="bottonP">Guilherme de Moraes - 1252214288 e Gustavo Basilio - 12522163427</p>
+    </footer>
 </body>
+
 </html>
