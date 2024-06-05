@@ -80,7 +80,7 @@ a:hover{
     flex-direction: column;
     border-radius: 10px;
     width: 48%;
-    height: 120%;
+    height: 490px;
     text-align: center;
 }
 
@@ -103,7 +103,7 @@ a:hover{
     flex-direction: column;
     border-radius: 10px;
     width: 48%;
-    height: 120%;
+    height: 490px;
 }
 
 .divtopo{
@@ -130,12 +130,15 @@ a:hover{
 
 .texttopo{
     margin: 1%;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .produtosdiv{
     color: rgb(0, 0, 0);
     margin: 1%;
     margin-top: 0.2%;
+    margin-right: 30px;
     display: flex;
     flex-wrap: wrap;
     background-color: #d8eaf7;
